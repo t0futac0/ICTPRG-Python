@@ -4,6 +4,3 @@
 charset = input("Please enter some characters. ")
 y = len(charset)
 
-if y > 7:
-    middle = charset[len(charset)//2]
-    print(str(charset[middle-1]), str(charset[middle]), str(charset[middle+1]))
